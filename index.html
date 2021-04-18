@@ -15,127 +15,134 @@
 	<body>
 		<div class="main" id="app1">
 			<form class="form-horizontal" role="form">
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-info">攻击力</label>
-					<div class="col-sm-6">
+				<div class="hang ">
+					<label class="width15 control-label text-info">攻击力</label>
+					<div class="width35 none-padding">
 						<input type="text" class="form-control" v-model.number="gongjili">
 					</div>
-				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-info">技能倍率</label>
-					<div class="col-sm-6 input-group right-width">
+					<label class="width15 control-label text-info">技能倍率</label>
+					<div class="width35 input-group">
 						<input type="text" class="form-control" v-model.number="jinengbeilv">
 						<span class="input-group-addon">百分比%</span>
 					</div>
+					<div class="clear"></div>
 				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-info">暴击率</label>
-					<div class="col-sm-6 input-group right-width">
+				<div class="hang">
+					<label class="width15 control-label text-info">暴击率</label>
+					<div class="width35 input-group float-left">
 						<input type="text" class="form-control" v-model.number="baojilv">
 						<span class="input-group-addon">百分比%</span>
 					</div>
-				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-info">暴击伤害</label>
-					<div class="col-sm-6 input-group right-width">
+					<label class="width15 control-label text-info">暴击伤害</label>
+					<div class="width35 input-group">
 						<input type="text" class="form-control" v-model.number="baojishanghai">
 						<span class="input-group-addon">百分比%</span>
 					</div>
+					<div class="clear"></div>
 				</div>
 
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-success">元素增伤</label>
-					<div class="col-sm-6 input-group right-width">
+				<div class="top-border"></div>
+
+				<div class="hang ">
+					<label class="width15 control-label text-info">元素增伤</label>
+					<div class="width35 input-group float-left">
 						<input type="text" class="form-control" v-model.number="yuansuzengshang">
 						<span class="input-group-addon">百分比%</span>
 					</div>
-				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-success">武器增伤</label>
-					<div class="col-sm-6 input-group right-width">
-						<input type="text" class="form-control" v-model.number="wuqizegnshang">
+					<label class="width15 control-label text-info">武器增伤</label>
+					<div class="width35 input-group">
+						<input type="text" class="form-control" v-model.number="wuqizengshang">
 						<span class="input-group-addon">百分比%</span>
 					</div>
+					<div class="clear"></div>
 				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-success">圣遗物增伤</label>
-					<div class="col-sm-6 input-group right-width">
+				<div class="hang ">
+					<label class="width15 control-label text-info">圣遗物增伤</label>
+					<div class="width35 input-group">
 						<input type="text" class="form-control" v-model.number="shengyiwu">
 						<span class="input-group-addon">百分比%</span>
 					</div>
+					<label class="width15 control-label text-info">其他增伤</label>
+					<div class="width35 input-group">
+						<input type="text" class="form-control" v-model.number="qitazengshang">
+						<span class="input-group-addon">百分比%</span>
+					</div>
+					<div class="clear"></div>
 				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-info">减抗技能 ( 比如钟离 )</label>
-					<div class="col-sm-6 input-group right-width">
+
+				<div class="top-border"></div>
+
+				<div class="hang ">
+					<label class="width15 control-label text-info">减抗技能</label>
+					<div class="width35 input-group">
 						<input type="text" class="form-control" v-model.number="jiankang">
 						<span class="input-group-addon">百分比%</span>
 					</div>
-				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-info">怪物默认抗性</label>
-					<div class="col-sm-6 input-group right-width">
+					<label class="width15 control-label text-info">怪物抗性</label>
+					<div class="width35 input-group">
 						<input type="text" class="form-control" v-model.number="guaiwukangxing">
 						<span class="input-group-addon">百分比%</span>
 					</div>
+					<div class="clear"></div>
 				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-info">角色等级</label>
-					<div class="col-sm-6">
+				<div class="top-border"></div>
+
+				<div class="hang ">
+					<label class="width15 control-label text-info">角色等级</label>
+					<div class="width35 none-padding">
 						<input type="text" class="form-control" v-model.number="juesedengji">
 					</div>
-				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-info">怪物等级</label>
-					<div class="col-sm-6">
+					<label class="width15 control-label text-info">怪物等级</label>
+					<div class="width35 none-padding">
 						<input type="text" class="form-control" v-model.number="guaiwudengji">
 					</div>
+					<div class="clear"></div>
 				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-info">减防技能</label>
-					<div class="col-sm-6 input-group right-width">
+				<div class="hang">
+					<label class="width15 control-label text-info">减防技能</label>
+					<div class="width35 input-group">
 						<input type="text" class="form-control" v-model.number="jianfang">
 						<span class="input-group-addon">百分比%</span>
 					</div>
+					<div class="clear"></div>
 				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-danger">防御系数</label>
-					<div class="col-sm-6 input-group right-width">
-						<input type="text" class="form-control" v-model.number="fangyuxishu" disabled="disabled">
-						<span class="input-group-addon">值越大，造成的伤害越大</span>
-					</div>
-				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-warning">元素反应倍率</label>
-					<div class="col-sm-6 input-group right-width">
+				<div class="top-border"></div>
+				<div class="hang ">
+					<label class="width15 control-label text-warning">元素反应倍率</label>
+					<div class="width35 input-group">
 						<input type="text" class="form-control" v-model.number="fanying">
-						<span class="input-group-addon">水火冰反应，默认不打反应填1</span>
+						<span class="input-group-addon">默认不打反应填1</span>
 					</div>
-				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-warning">元素精通倍率加成</label>
-					<div class="col-sm-6 input-group right-width">
+					<label class="width15 control-label text-warning">元素精通倍率加成</label>
+					<div class="width35 input-group">
 						<input type="text" class="form-control" v-model.number="fanyingjiacheng">
 						<span class="input-group-addon">百分比%，不打元素反应填0</span>
 					</div>
+					<div class="clear"></div>
 				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-danger">不暴击伤害</label>
-					<div class="col-sm-6">
+				<div class="top-border"></div>
+				<div class="hang ">
+					<label class="width15 control-label text-danger">不暴击伤害</label>
+					<div class="width35 none-padding">
 						<input type="text" class="form-control" v-model.number="shanghai1" disabled="disabled">
 					</div>
+					<div class="clear"></div>
 				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-danger">暴击伤害</label>
-					<div class="col-sm-6">
+				<div class="hang ">
+					<label class="width15 control-label text-danger">暴击伤害</label>
+					<div class="width35 none-padding">
 						<input type="text" class="form-control" v-model.number="shanghai2" disabled="disabled">
 					</div>
+					<div class="clear"></div>
 				</div>
-				<div class="form-group ">
-					<label class="col-sm-4 control-label text-danger">平均伤害</label>
-					<div class="col-sm-6">
+				<div class="hang ">
+					<label class="width15 control-label text-danger">平均伤害</label>
+					<div class="width35 none-padding">
 						<input type="text" class="form-control" v-model.number="shanghai3" disabled="disabled">
 					</div>
+					<div class="clear"></div>
 				</div>
+				<div id="save" class="btn btn-success center-block">保存本次数据</div>
 			</form>
 		</div>
 	</body>

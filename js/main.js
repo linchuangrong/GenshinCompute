@@ -7,9 +7,10 @@ var app1 = new Vue({
 		jinengbeilv: 656, //技能倍率%
 		juesedengji: 90, //角色等级
 		guaiwudengji: 86, //怪物等级
-		yuansuzengshang: 46.4, //元素增伤%
-		wuqizegnshang: 20, //武器增伤%
+		yuansuzengshang: 46.6, //元素增伤%
+		wuqizengshang: 20, //武器增伤%
 		shengyiwu: 35, //圣遗物增伤%
+		qitazengshang:20,//其他增伤
 		jiankang: 20, //减抗%
 		guaiwukangxing: 10, //怪物默认抗性%
 		jianfang: 0, //减防%
@@ -45,7 +46,7 @@ var app1 = new Vue({
 
 			return this.gongjili * //攻击力
 				(this.jinengbeilv / 100) * //技能倍率
-				(1 + this.yuansuzengshang / 100 + this.wuqizegnshang / 100 + this.shengyiwu / 100) * //增伤
+				(1 + this.yuansuzengshang / 100 + this.wuqizengshang / 100 + this.shengyiwu / 100) * //增伤
 				(1 - kangxing2 / 100) * //抗性
 				((this.juesedengji + 100) / ((this.juesedengji + 100) + (this
 					.guaiwudengji + 100) * (1 - this.jianfang / 100))) * //等级防御力
@@ -75,7 +76,7 @@ var app1 = new Vue({
 			return this.gongjili * //攻击力
 				(this.jinengbeilv / 100) * //技能倍率
 				(1 + (this.baojishanghai / 100)) * //暴击暴伤
-				(1 + this.yuansuzengshang / 100 + this.wuqizegnshang / 100 + this.shengyiwu / 100) * //增伤
+				(1 + this.yuansuzengshang / 100 + this.wuqizengshang / 100 + this.shengyiwu / 100) * //增伤
 				(1 - kangxing2 / 100) * //抗性
 				((this.juesedengji + 100) / ((this.juesedengji + 100) + (this
 					.guaiwudengji + 100) * (1 - this.jianfang / 100))) * //等级防御力
@@ -105,7 +106,7 @@ var app1 = new Vue({
 			return this.gongjili * //攻击力
 				(this.jinengbeilv / 100) * //技能倍率
 				(1 + (this.baojilv / 100) * (this.baojishanghai / 100)) * //暴击暴伤
-				(1 + this.yuansuzengshang / 100 + this.wuqizegnshang / 100 + this.shengyiwu / 100) * //增伤
+				(1 + this.yuansuzengshang / 100 + this.wuqizengshang / 100 + this.shengyiwu / 100) * //增伤
 				(1 - kangxing2 / 100) * //抗性
 				((this.juesedengji + 100) / ((this.juesedengji + 100) + (this
 					.guaiwudengji + 100) * (1 - this.jianfang / 100))) * //等级防御力

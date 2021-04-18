@@ -8,16 +8,54 @@ html {
 }
 
 .main {
-	width: 80%;
+	width: 1000px;
 	height: 100%;
 	margin: 0 auto;
-	padding: 2rem;
+	padding: 40px 0;
 	background-color: #FFFFFF;
 }
-.main label{
+.main .hang{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.main .lie{
+	width: 50%;
+}
+.main .clear{
+	clear: both !important;
+}
+.main .width15{
+	width: 15%;
+	float: left;
+}
+.main .width35{
+	width: 35%;
+	float: left;
+	padding-left: 20px;
+}
+
+.main label {
 	font-weight: normal;
 }
-.right-width{
-	padding-left: 15px !important;
-	padding-right: 15px !important;
+
+.main .margin-btm15 {
+	margin-bottom: 15px;
+}
+
+.main .float-left{
+	float: left;
+}
+
+.none-padding {
+	padding: 0;
+}
+#save{
+	margin-top: 30px;
+	width: 150px;
+	height: 40px;
+	line-height: 26px;
+}
+.top-border{
+	height: 20px;
+	border-top: 1px solid #929292;
 }
