@@ -13,24 +13,26 @@ html {
 	padding: 20px 0 60px 0;
 	background-color: #FFFFFF;
 }
-.main h4{
+
+.main h4 {
 	padding-bottom: 10px;
 }
-.main .hang{
+
+.main .hang {
 	width: 100%;
 	padding-bottom: 20px;
 }
-.main .lie{
-	width: 50%;
-}
-.main .clear{
+
+.main .clear {
 	clear: both !important;
 }
-.main .width15{
+
+.main .width15 {
 	width: 15%;
 	float: left;
 }
-.main .width35{
+
+.main .width35 {
 	width: 35%;
 	float: left;
 	padding-left: 20px;
@@ -44,20 +46,23 @@ html {
 	margin-bottom: 15px;
 }
 
-.main .float-left{
+.main .float-left {
 	float: left;
 }
 
 .none-padding {
 	padding: 0;
 }
-#save{
+
+#save {
 	margin-top: 30px;
 	width: 150px;
 	height: 40px;
 	line-height: 26px;
+	margin-bottom: 30px;
 }
-.top-border{
+
+.top-border {
 	height: 10px;
 	border-top: 1px solid #929292;
 }

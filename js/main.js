@@ -116,5 +116,10 @@ var app1 = new Vue({
 					.guaiwudengji + 100) * (1 - this.jianfang / 100))) * //等级防御力
 				(this.fanying) * (1 + fanyingjiacheng2 / 100) //元素反应倍率
 		}
+	},
+	filters: {
+		number2: function(value) {
+			return value.toFixed(2);
+		}
 	}
 });
