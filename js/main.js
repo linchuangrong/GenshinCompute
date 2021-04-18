@@ -33,7 +33,7 @@ var app1 = new Vue({
 				if (this.jiankang - this.guaiwukangxing > 0) {
 					kangxing2 = -(this.jiankang - this.guaiwukangxing) / 2;
 				} else {
-					kangxing2 = this.jiankang - this.guaiwukangxing;
+					kangxing2 = -(this.jiankang - this.guaiwukangxing);
 				}
 			} else {
 				kangxing2 = this.guaiwukangxing; //怪物默认抗性
@@ -63,7 +63,7 @@ var app1 = new Vue({
 				if (this.jiankang - this.guaiwukangxing > 0) {
 					kangxing2 = -(this.jiankang - this.guaiwukangxing) / 2;
 				} else {
-					kangxing2 = this.jiankang - this.guaiwukangxing;
+					kangxing2 = -(this.jiankang - this.guaiwukangxing);
 				}
 			} else {
 				kangxing2 = this.guaiwukangxing; //怪物默认抗性
@@ -94,7 +94,7 @@ var app1 = new Vue({
 				if (this.jiankang - this.guaiwukangxing > 0) {
 					kangxing2 = -(this.jiankang - this.guaiwukangxing) / 2;
 				} else {
-					kangxing2 = this.jiankang - this.guaiwukangxing;
+					kangxing2 = -(this.jiankang - this.guaiwukangxing);
 				}
 			} else {
 				kangxing2 = this.guaiwukangxing; //怪物默认抗性
