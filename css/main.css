@@ -1,0 +1,23 @@
+body,
+html {
+	background-color: #FFFFFF;
+	height: 100%;
+	font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.main {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 2rem;
+	background-color: #FFFFFF;
+}
+.main label{
+	font-weight: normal;
+}
+.right-width{
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
