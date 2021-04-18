@@ -15,6 +15,7 @@
 	<body>
 		<div class="main" id="app1">
 			<form class="form-horizontal" role="form">
+				<h4 class="text-center">基础数值</h4>
 				<div class="hang ">
 					<label class="width15 control-label text-info">攻击力</label>
 					<div class="width35 none-padding">
@@ -43,6 +44,7 @@
 
 				<div class="top-border"></div>
 
+				<h4 class="text-center">伤害增益</h4>
 				<div class="hang ">
 					<label class="width15 control-label text-info">元素增伤</label>
 					<div class="width35 input-group float-left">
@@ -72,6 +74,7 @@
 
 				<div class="top-border"></div>
 
+				<h4 class="text-center">抗性系数</h4>
 				<div class="hang ">
 					<label class="width15 control-label text-info">减抗技能</label>
 					<div class="width35 input-group">
@@ -87,6 +90,7 @@
 				</div>
 				<div class="top-border"></div>
 
+				<h4 class="text-center">防御系数</h4>
 				<div class="hang ">
 					<label class="width15 control-label text-info">角色等级</label>
 					<div class="width35 none-padding">
@@ -107,13 +111,15 @@
 					<div class="clear"></div>
 				</div>
 				<div class="top-border"></div>
+				
+				<h4 class="text-center">元素反应</h4>
 				<div class="hang ">
 					<label class="width15 control-label text-warning">元素反应倍率</label>
 					<div class="width35 input-group">
 						<input type="text" class="form-control" v-model.number="fanying">
 						<span class="input-group-addon">默认不打反应填1</span>
 					</div>
-					<label class="width15 control-label text-warning">元素精通倍率加成</label>
+					<label class="width15 control-label text-warning">精通倍率加成</label>
 					<div class="width35 input-group">
 						<input type="text" class="form-control" v-model.number="fanyingjiacheng">
 						<span class="input-group-addon">百分比%，不打元素反应填0</span>
@@ -121,14 +127,14 @@
 					<div class="clear"></div>
 				</div>
 				<div class="top-border"></div>
+				
+				
+				<h4 class="text-center">计算结果</h4>
 				<div class="hang ">
 					<label class="width15 control-label text-danger">不暴击伤害</label>
 					<div class="width35 none-padding">
 						<input type="text" class="form-control" v-model.number="shanghai1" disabled="disabled">
 					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="hang ">
 					<label class="width15 control-label text-danger">暴击伤害</label>
 					<div class="width35 none-padding">
 						<input type="text" class="form-control" v-model.number="shanghai2" disabled="disabled">

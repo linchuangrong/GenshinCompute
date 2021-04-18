@@ -8,11 +8,13 @@ html {
 }
 
 .main {
-	width: 1000px;
-	height: 100%;
+	width: 800px;
 	margin: 0 auto;
-	padding: 40px 0;
+	padding: 20px 0 60px 0;
 	background-color: #FFFFFF;
+}
+.main h4{
+	padding-bottom: 10px;
 }
 .main .hang{
 	width: 100%;
@@ -56,6 +58,6 @@ html {
 	line-height: 26px;
 }
 .top-border{
-	height: 20px;
+	height: 10px;
 	border-top: 1px solid #929292;
 }
