@@ -13,7 +13,12 @@ html {
 	padding: 20px 0 60px 0;
 	background-color: #FFFFFF;
 }
-
+.tips{
+	padding: 0px 20px 20px 20px;
+	color: red;
+	text-align: center;
+	font-size: 14px;
+}
 .main h4 {
 	padding-bottom: 10px;
 }
